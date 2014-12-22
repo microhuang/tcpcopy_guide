@@ -33,3 +33,7 @@ tail -f /var/log/nginx/access.log
 清除iptables：
 iptables -P INPUT ACCEPT
 iptables -F
+
+
+------------------------------------
+注意公用数据库可能导致的数据重复问题。
